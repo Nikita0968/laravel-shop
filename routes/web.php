@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\MainController;
 use App\Http\Controllers\TestController;
 use Illuminate\Support\Facades\Route;
 
@@ -20,3 +20,8 @@ Route::get('/', function () {
 Route::get('/second',[TestController::class, 'show']);
 
 
+
+Route::get('/home', [MainController::class, 'showIndex']);
+
+
+Route::get('/array', [MainController::class, 'showArray'])-> name('array');

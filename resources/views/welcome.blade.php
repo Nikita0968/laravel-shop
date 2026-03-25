@@ -10,8 +10,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-
- @Vite(['resources/css/app.css', 'resources/js/app.js'])
+    @Vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
 <body>
@@ -22,6 +21,7 @@
         <p>контент</p>
         <img src="/img/1.jpeg" alt="машинка">
         <a href="/second">на вторую страницу</a>
+        <a href="/home">на третью страницу</a>
     </main>
     <footer>
         <p>&copy;Аникеев Никита, 2026</p>
