@@ -16,6 +16,7 @@
                 <li><a href="#">О нас</a></li>
                 <li><a href="#">Контакты</a></li>
                 <li><a href="#">Корзина</a></li>
+                <li><a href="{{ route('array') }}">Массивы</a></li>
                 </ul>
                 <button class="drop-menu">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -25,6 +26,7 @@
             </nav>
 </header>
 <main>
+<img src="/img/1.jpeg" alt="машинка">
 
                 
 </main>
